@@ -27,6 +27,25 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.nav-bar-content p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.nav-fonts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 15%; 
+}
+
+.nav-fonts img {
+    height: 20px;
+    width: 20px;
+    opacity: 0.9;
+}
+
 .nav-bar-list {
     display: flex;
     justify-content: space-around;
@@ -41,9 +60,4 @@ body {
 .nav-bar-list a {
     text-decoration: none;
     color: #000000be;
-}
-.fa fa-twitter {
-    height: 10px;
-    width: 10px;
-    color: black;
 }
